@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/icon">
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+    <title>Foodeli | Play with your food!</title>
+  </head>
+  <body>
+     <!-- Nav-bar- Header -->
+     <header class="navigation-menu py-3"> 
+      <div class="container">
+        <div class="row">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="logo">
+             </a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse " id="navbarSupportedContent">
+               <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                 <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-home pt-4 ps-5 pe-5 bg-white " aria-labelledby="navbarDropdown">
+                     <ul class="mx-5">
+                       <h6 class="pb-4 fw-bold">Home Pages</h6>
+                      <li><a class="dropdown-item" href="#">Home Default</a></li>
+                      <li><a class="dropdown-item" href="#">Home Burger</a></li>
+                      <li><a class="dropdown-item" href="#">Home Banner Wall</a></li>
+                      <li><a class="dropdown-item" href="#">Home Dark Mode</a></li>
+                      <li><a class="dropdown-item" href="#">Home Boxed</a></li>
+                     </ul>
+                     <ul class="mx-5">
+                       <h6 class="pb-4 fw-bold">Shop</h6>
+                      <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                      <li><a class="dropdown-item" href="#">Shop Single</a></li>
+                       <h6 class="py-4 fw-bold">Other Page</h6>
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Contact </a></li>
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                     </ul>
+                     <ul class="mx-5">
+                       <h6 class="pb-4 fw-bold">User Acount</h6>
+                      <li><a class="dropdown-item" href="#">My cart</a></li>
+                      <li><a class="dropdown-item" href="#">Check out</a></li>
+                      <li><a class="dropdown-item" href="#">My acount</a></li>
+                     </ul>
+                    </ul>
+                  </li>
+                 </div>
+                 <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Order Online
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu-2 dropdown-menu pt-4 ps-5 pe-5 bg-white" aria-labelledby="navbarDropdown">
+                      <li class="mb-4"><a class="dropdown-item" href="#">Our Menu</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Our Menu 2</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Our Menu 3</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Our Menu 4</a></li>
+                    </ul>
+                  </li>
+                 </div>
+                <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      News
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-2 pt-4 ps-5 pe-5 bg-white" aria-labelledby="navbarDropdown">
+                      <li class="mb-4"><a class="dropdown-item" href="#">Blog Standad</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Blog Signal</a></li>
+                    </ul>
+                  </li>
+                </div>
+                 <li class="nav-item header-menu">
+                  <a class="nav-link" href="#">Store Locations</a>
+                </li>
+               </ul>
+               <a href="#0" type="button" class="search-btn btn" data-bs-toggle="modal" data-bs-target="#searchModal">
+                <i class="fas fa-search"></i>
+               </a>
+               <a href="#0" type="button" class="search-btn btn" data-bs-toggle="modal" data-bs-target="#shopModal">
+                <i class="fas fa-shopping-bag"></i>
+               </a>
+              <div class="contact-detail ms-5">
+                <h6> Call To Order Now</h6>
+                <a href="tel:212 585 9675">212 585 9675</a>
+              </div>
+             </div>
+           </div>
+         </nav>
+         <!-- Header-bottom -->
+         <nav class="navbar header-bottom  navbar-expand-lg navbar-light bg-light">
+           <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse " id="navbarSupportedContent">
+               <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                 <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link header-bottom-menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pizza
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pizza-dropdown py-5 bg-white align-items-center d-flex" aria-labelledby="navbarDropdown">
+                      <div class="  text-center">
+                        <ul>
+                          <h6 class="pb-4 fw-bold text-uppercase">Tuscan Pizza</h6>
+                          <img src="images/product-pizza-menu4.jpg" alt="product-menu">
+                        </ul>
+                       </div>
+                       <div class="  text-center">
+                        <ul>
+                          <h6 class="pb-4 fw-bold text-uppercase">Margharita pizza</h6>
+                          <img src="images/product-pizza-menu3.jpg" alt="product-menu">
+                        </ul>
+                       </div>
+                       <div class="  text-center">
+                        <ul>
+                          <h6 class="pb-4 fw-bold text-uppercase">Pizza</h6>
+                          <img src="images/product-pizza-menu-2.jpg" alt="product-menu">
+                        </ul>
+                       </div>
+                       <div class=" pizza-banner text-center">
+                        <ul >
+                          <img src="images/banner-menu-pizza223-ok.jpg" alt="pitza banner">
+                        </ul>
+                       </div>
+                    </ul>
+                  </li>
+                 </div>
+                 <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link header-bottom-menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Burgers
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu burger-dropdown py-5 bg-white align-items-center d-flex " aria-labelledby="navbarDropdown">
+                      <div class="burger-list  text-center  mx-4">
+                        <ul>
+                          <li class="mb-4">Short-Stack</li>
+                          <li class="mb-4">High-Tower</li>
+                          <li class="mb-4">Combos</li>
+                        </ul>
+                       </div>
+                       <div class="text-center px-4">
+                        <ul>
+                          <h6 class="pb-4 fw-bold text-uppercase">Patty</h6>
+                          <img src="images/burger-1.png" alt="product-menu">
+                        </ul>
+                       </div>
+                       <div class="text-center px-4">
+                        <ul>
+                          <h6 class="pb-4 fw-bold text-uppercase">Filling</h6>
+                          <img src="images/burger-2.jpg" alt="product-menu">
+                        </ul>
+                       </div>
+                        <div class="text-center px-5">
+                          <ul>
+                            <h6 class="pb-4 fw-bold text-uppercase">Bun</h6>
+                            <img src="images/burger-3.jpg" alt="product-menu">
+                          </ul>
+                        </div>
+                       <div class="burger-banner text-center">
+                        <ul>
+                          <img src="images/burger-banner.jpg" alt="pitza banner">
+                        </ul>
+                       </div>
+                    </ul>
+                  </li>
+                 </div>
+                <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link header-bottom-menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tacos
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pt-4 ps-5 pe-5 bg-white align-items-center" aria-labelledby="navbarDropdown">
+                      <div class="takos-img me-5">
+                        <img src="images/takos.jpg" alt="takos" class="">
+                      </div>
+                     <div class="takos-menu px-5">
+                      <h6 class="pb-4 fw-bold text-uppercase">Populer Combos</h6>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Burger + Fries</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#"> Burger + Shake</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Burger + Fries</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#"> Burger + Shake</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Burger + Fries</a></li>
+                     </div>
+                    </ul>
+                  </li>
+                </div>
+                 <li class="nav-item header-menu">
+                  <a class="nav-link header-bottom-menu" href="#">Salads</a>
+                </li>
+                <div class="header-menu">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link header-bottom-menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sandwiches
+                      <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-2 pt-4 px-5 bg-white" aria-labelledby="navbarDropdown">
+                      <li class="mb-4"><a class="dropdown-item" href="#">Classic Subs</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Club Sandwich</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Chese Melts</a></li>
+                      <li class="mb-4"><a class="dropdown-item" href="#">Chicken Wraps</a></li>
+                    </ul>
+                  </li>
+                </div>
+                <li class="nav-item header-menu">
+                  <a class="nav-link header-bottom-menu" href="#">Fries</a>
+                </li>
+                <li class="nav-item header-menu">
+                  <a class="nav-link header-bottom-menu" href="#">Desserts</a>
+                </li>
+                <li class="nav-item header-menu">
+                  <a class="nav-link header-bottom-menu" href="#">Drinks</a>
+                </li>
+               </ul>
+             </div>
+           </div>
+         </nav>
+        </div>
+      </div>
+     </header>
+     <!---------------- Banner------------- -->
+<section class="mb-5">
+  <div class="container-fluid pizza-main-banner">
+    <div class="row text-center">
+      <div class="pizza-banner-content pt-5">
+        <span class="text-uppercase">One Time Offer</span>
+        <h1 class="pt-5">  
+          <span class="word1">
+           <span class="char1">C</span>
+           <span class="char1 char2">H</span>
+           <span class="char1 char3">I</span>
+           <span class="char1 char4">C</span>
+           <span class="char1 char5">K</span>
+           <span class="char1 char6">E</span>
+           <span class="char1 char7">N</span>
+       </span>
+       <span class="word2">
+           <span class="char1"></span>
+           <span class="char1 char2">B</span>
+           <span class="char1 char3">R</span>
+           <span class="char1 char4">E</span>
+           <span class="char1 char5">A</span>
+           <span class="char1 char6">S</span>
+           <span class="char1 char6">T</span>
+       </span>
+       <span class="word3">
+           <span class="char1">&</span>
+       </span>
+       <br>
+       <span class="word5">
+           <span class="char1">M</span>
+           <span class="char1 char2">O</span>
+           <span class="char1 char3">Z</span>
+           <span class="char1 char3">Z</span>
+           <span class="char1 char3">A</span>
+           <span class="char1 char3">R</span>
+           <span class="char1 char3">E</span>
+           <span class="char1 char3">L</span>
+           <span class="char1 char3">L</span>
+           <span class="char1 char3">A</span>
+       </span>
+       <span class="word6">
+           <span class="char1">C</span>
+           <span class="char1 char2">H</span>
+           <span class="char1 char3">E</span>
+           <span class="char1 char3">E</span>
+           <span class="char1 char3">S</span>
+           <span class="char1 char3">E</span>
+       </span>
+      </h1>
+      <h3 class="text-uppercase pt-2">Pizza</h3>
+      <img src="images/pizza-text.png" class="pizza-text" alt="pizza-text-img">
+      <span class="d-block pt-5 pizza-menu">Chiken Breast. Grilled Onialns. Pineapple. Mozzarelia Cheese. BBQ Sauce</span>
+      <img src="images/main-pizza.png" class="pt-5 main-pizza-img" alt="main pitza">
+      </div>
+    </div>
+  </div>
+</section>
+     <!---------------- Food-menu------------- -->
+<section class="pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="burger-food-menu d-flex ">
+        <div class="burger-menu me-2">
+         <a href="#0">
+          <img src="images/food-menu-burger.jpg" class="w-100" alt="burger-banner">
+          <div class="burger-text text-center text-uppercase">
+            <span class="word-1">Best</span>
+            <span class="d-block word-2">Burger</span>
+            <span class="word-3">Ever</span>
+          </div>
+         </a>
+        </div>
+        <div class="other-menu">
+          <div class="d-flex">
+            <div class="me-2">
+              <a href="#0 burger-img">
+                <img src="images/food-mnu-juice.jpg" class=" w-100"  alt="juice">
+                <h3 class="drink"><a href="#0">drinks</a></h3>
+              </a>
+            </div>
+            <div class="fries">
+              <a href="#0">
+                <img src="images/food-menu-fries.jpg" class="w-100"  alt="fries">
+              </a>
+              <div class="fries-content">
+                <h1 class="text-uppercase text-white fw-bold">Fries</h1>
+                <span class="text-white text-uppercase">With Love</span>
+                <span class="d-block py-2">15% Off For Your <br> First online Order</span>
+                <a href="#0" class="order-btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="pt-2 food-menu-takos">
+            <a href="#0">
+              <img src="images/food-menu-takos.jpg" class="w-100"  alt="takos"> 
+            </a>
+            <div class="food-takos-content text-center">
+              <span>epic</span>
+              <h1 class="fw-bold">takos</h1>
+              <span class="offer text-uppercase">offer</span>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!---------------Selling product------------- -->
+<section class="py-5">
+  <div class="container">
+    <div class="main-head text-center pb-5">
+      <span class="text-uppercase">Our Signature</span>
+      <h2 class="pt-4 fw-bold">Best Selling Pizzas</h2>
+    </div>
+    <div class="row p-0 m-0 sale">
+      <div class="col-4 ">
+        <div class="card  p-0">
+          <img src="images/ice-cream.jpg" class="card-img-top" alt="food-img">
+          <a href="#0">
+            <i class="far fa-heart text-center"></i>
+          </a>
+          <a href="#0">
+          <i class="far fa-eye text-center eye"></i>
+          </a>
+          <div class="card-body text-center">
+            <h5 class="card-title">Potato Wedges</h5>
+            <span>$25.00</span>
+            <p class="card-text pt-3">Some quick example text to build on the card title and make up.</p>
+            <a href="#" class="btn text-uppercase">Choose option</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card card-2 p-0">
+          <img src="images/sale-pizza.jpg" class="card-img-top" alt="food-img">
+          <a href="#0">
+            <i class="far fa-heart text-center"></i>
+          </a>
+          <a href="#0">
+            <i class="far fa-eye text-center eye"></i>
+            </a>
+          <span class="sold-bage text-center fw-bold">Sold Out</span>
+          <div class="card-body text-center">
+            <h5 class="card-title">Supreme Pizza</h5>
+            <span>$24.00-26.00$</span>
+            <p class="card-text pt-3">Some quick example text to build on the card title and make up.</p>
+            <a href="#" class="btn  text-uppercase">Choose option</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card  p-0">
+          <img src="images/sale=-pizza2.jpg" class="card-img-top" alt="food-img">
+          <a href="#0">
+            <i class="far fa-heart text-center"></i>
+          </a>
+          <a href="#0">
+            <i class="far fa-eye text-center eye"></i>
+            </a>
+          <div class="card-body text-center">
+            <h5 class="card-title">Pepperoni Pizza</h5>
+            <span>$28.00</span>
+            <p class="card-text pt-3">Some quick example text to build on the card title and make up.</p>
+            <a href="#" class="btn  text-uppercase">Choose option</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!----------------Deal------------- -->
+  <section class="py-5">
+    <div class="container-fluid deal-bg d-flex justify-content-center align-items-center">
+      <div class="row justify-content-center">
+        <div class="deal-contant text-white text-center ">
+          <h2>Exclusive Deal</h2>
+          <h1 class="text-uppercase fw-bold">Big Burger Party</h1>
+          <span>fresh & tasty</span>
+          <a href="#0" class="btn text-uppercase d-block mx-auto fw-bold">check it out</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Populer meels -->
+  <section>
+    <div class="container">
+      <div class="main-head text-center py-5">
+        <span class="text-uppercase">Popular Meals</span>
+        <h2 class="pt-4 fw-bold">Discover What's Hot</h2>
+      </div>
+    </div>
+  </section>
+  <!-- Process -->
+  <section class="py-5">
+    <div class="container">
+      <div class="main-head text-center pb-5">
+        <span class="text-uppercase">Our Process</span>
+        <h2 class="pt-4 fw-bold">Friendly & Intuitive System</h2>
+      </div>
+        <div class="row process">
+          <div class="col-3 ">
+            <div class="card  p-0">
+              <img src="images/process-1.png" class="card-img-top mx-5" alt="food-img">
+              <div class="card-body text-center">
+                <span class="text-uppercase ">step 01</span>
+                <h5 class="card-title pt-3">Make an online order</h5>
+                <p class="card-text pt-3">Some quick example text to build on the card title and make up.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card card-2 p-0">
+              <img src="images/process-2.png" class="card-img-top mx-5" alt="food-img ">
+              <div class="card-body text-center">
+                <span class="text-uppercase ">step 02</span>
+                <h5 class="card-title pt-3">Enter your address</h5>
+                <p class="card-text pt-3">Some quick example text to build on the card title and make up.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card  p-0">
+              <img src="images/process-3.png" class="card-img-top mx-5" alt="food-img">  
+              <div class="card-body text-center">
+                <span class="text-uppercase ">step 03</span>
+                <h5 class="card-title pt-3">Fast delivery</h5>
+                <p class="card-text pt-3">Some quick example text to build on the </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card  p-0">
+              <img src="images/process-4.png" class="card-img-top mx-5" alt="food-img">
+              <div class="card-body text-center">
+                <span class="text-uppercase ">Pay for the food</span>
+                <h5 class="card-title pt-3">Pepperoni Pizza</h5>
+                <p class="card-text pt-3">Some quick example text to build on the card title and make up.</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- location -->
+  <section class="py-5">
+    <div class="container-fluid location-bg align-items-center d-flex justify-content-center">
+      <div class="row">
+        <div class="main-head text-center">
+          <span class="text-uppercase text-white">Our Location</span>
+          <h1 class="pt-4 fw-bold text-white text-uppercase mb-5">find a foodeli store <br> near you</h1>
+          <div class="zip-code">
+            <input type="text" placeholder="ZIP Code or state province" >
+            <a href="#0" class="text-white text-uppercase">See On Map</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial -->
+  <section class="py-5 testi-bg">
+    <div class="container">
+      <div class="main-head text-center ">
+        <span class="text-uppercase">Testimonial</span>
+        <h2 class="pt-4 fw-bold">Why people love Foodeli?</h2>
+      </div>
+      <div class="row py-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner testi-slider">
+            <div class="carousel-item active">
+             <div class="d-flex">
+              <div class="col-4 p-5 me-3">
+                <span>Best food delivery <br> company ever!</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-4 w-75">
+									Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                  <div class="testi-person d-flex">
+                    <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                    <div class="testi-person-detail">
+                      <h5>Britney Cooper</h5>
+                      <span class="city fs-6 ">New York</span>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-4  p-5 me-3">
+                <span>Best food delivery <br> company ever!</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-4 w-75">
+									Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                  <div class="testi-person d-flex">
+                    <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                    <div class="testi-person-detail">
+                      <h5>Britney Cooper</h5>
+                      <span class="city fs-6 ">New York</span>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-4  p-5 ">
+                <span>Best food delivery <br> company ever!</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-4 w-75">
+									Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                  <div class="testi-person d-flex">
+                    <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                    <div class="testi-person-detail">
+                      <h5>Britney Cooper</h5>
+                      <span class="city fs-6 ">New York</span>
+                    </div>
+                  </div>
+               </div>
+              </div>
+             </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-4  p-5">
+                  <span>Best food delivery <br> company ever!</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="pt-4 w-75">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                    <div class="testi-person d-flex">
+                      <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                      <div class="testi-person-detail">
+                        <h5>Britney Cooper</h5>
+                        <span class="city fs-6 ">New York</span>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="col-4  p-5">
+                  <span>Best food delivery <br> company ever!</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="pt-4 w-75">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                    <div class="testi-person d-flex">
+                      <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                      <div class="testi-person-detail">
+                        <h5>Britney Cooper</h5>
+                        <span class="city fs-6 ">New York</span>
+                      </div>
+                    </div>
+                 </div>
+                 <div class="col-4  p-5">
+                  <span>Best food delivery <br> company ever!</span>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="pt-4 w-75">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                    <div class="testi-person d-flex">
+                      <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                      <div class="testi-person-detail">
+                        <h5>Britney Cooper</h5>
+                        <span class="city fs-6 ">New York</span>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+             <div class="row">
+              <div class="col-4  p-5">
+                <span>Best food delivery <br> company ever!</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-4 w-75">
+									Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                  <div class="testi-person d-flex">
+                    <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                    <div class="testi-person-detail">
+                      <h5>Britney Cooper</h5>
+                      <span class="city fs-6 ">New York</span>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-4  p-5">
+                <span>Best food delivery <br> company ever!</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-4 w-75">
+									Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                  <div class="testi-person d-flex">
+                    <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                    <div class="testi-person-detail">
+                      <h5>Britney Cooper</h5>
+                      <span class="city fs-6 ">New York</span>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-4  p-5">
+                <span>Best food delivery <br> company ever!</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-4 w-75">
+									Lorem ipsum dolor sit amet, consectetur adipiscing, sed do eiusmod tempor incididunt ut labore doloremagna aliqua. Quis ipsum suspendisse ultrices et gravida risus.</p>
+                  <div class="testi-person d-flex">
+                    <img src="images/testi-1.jpg" alt="Testimonial" class="me-4">
+                    <div class="testi-person-detail">
+                      <h5>Britney Cooper</h5>
+                      <span class="city fs-6 ">New York</span>
+                    </div>
+                  </div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- footer -->
+<footer>
+  <div class="container-fluid bg-footer">
+    <div class="row">
+      <section class="footer-bg pt-5 px-0">
+        <div class="container">
+          <div class="row">
+            <div class="footer-head d-flex">
+             <div class="col-6">
+              <div class="logo">
+                <img src="images/logo-footer.png" alt="logo">
+              </div>
+             </div>
+              <div class="col-6  footer-social d-flex justify-content-end align-items-center">
+                <div class="copy-right-social">
+                  <a href="#0">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="#0">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#0">
+                    <i class="fab fa-instagram"></i>  
+                  </a>
+                  <a href="#0">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+               </div>
+            </div>
+            <div class="col-lg-3 col-6   links">
+              <h6 class="text-uppercase">Company</h6>
+              <ul>
+                <li>About Us  </li>
+                <li>Our Menu</li>
+                <li>Blog</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-6 links">
+              <h6 class="text-uppercase">Service</h6>
+              <ul>
+                <li>Online Order</li>
+                <li>My Order</li>
+                <li>Checkout</li>
+                <li>Catering</li>
+                <li>Our Locations</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-6   footer-contact">
+              <h6 class="text-uppercase">Get in touch</h6>
+            <ul>
+              <li>
+                <a href="#0">
+                  Mon — Sun: 9:00 - 22.00
+                 </a>
+              </li>
+              <li>
+                <a href="#0">
+                  236 5th Avenue, NYC 10001
+                 </a>
+              </li>
+              <li>
+                <a href="tel:+1 212 585 9675">
+                  +1 212 585 9675
+                 </a>
+              </li>
+              <li>
+                <a href="mailto:order@foodeli.com">
+                  order@foodeli.com
+                 </a>
+              </li>
+            </ul>
+            </div>
+            <div class="col-lg-3 col-6 payment pt-5">
+              <h6 class=" text-white">We Accept</h6>
+              <img src="images/payment.png" alt="payment" class="mb-3">
+              <span>* Foodeli supports most popular payment gateways.</span>
+            </div>
+          </div>
+        </div>
+        <div class="copy-right  d-flex py-4 px-5">
+          <div class="col-8">
+          <span class="text-white">© 2021 Foodeli. All Rights Reserved. <a href="index.html" class="text-white" style="border-bottom:1px solid #fff ;">Back To Top</a></span>
+          </div>
+          <div class="col-4">
+            <ul class="d-flex">
+              <li class="me-4">
+                <a href="#0">Sitemap</a>
+              </li>
+              <li class="me-4">
+                <a href="#0">ToS</a>
+              </li>
+              <li>
+                <a href="#0">Affliate Programe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</footer>
+<!-- Modals -->
+<div class="modal fade " id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-fullscreen">
+    <div class="modal-content ">
+      <div class="modal-header">
+        <button type="button" class="btn-close  bg-none" data-bs-dismiss="modal" aria-label="Close">
+          <i class="fas fa-times text-white"></i>
+        </button>
+      </div>
+      <div class="modal-body w-100">
+        <input type="search" class="text-white fs-4 search-model" placeholder="search...">
+        <i class="fas fa-search model-search-icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade " id="shopModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-scrollable mt-0 me-0">
+    <div class="modal-content-2 ">
+      <div class="modal-header model-header-2">
+        <span class="text-uppercase fw-bold">Shopping cart</span>
+        <span class="cart-item text-center text-white">0</span>
+        <button type="button" class="btn-close-2" data-bs-dismiss="modal" aria-label="Close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="modal-body  d-flex justify-content-center align-items-center h-100">
+        <span class="cart-content ">No Products in the card</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </body> 
+  <!-- Java Script -->  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+</html>
